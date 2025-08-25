@@ -1,13 +1,13 @@
-![banner](docs/readme-banner.png)
+![Banner](docs/readme-banner.png)
 
 # 方舟像素字体 / Ark Pixel Font
 
-[![License OFL](https://img.shields.io/badge/license-OFL--1.1-orange)](https://openfontlicense.org)
-[![License MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
+[![License OFL](https://img.shields.io/badge/license-OFL--1.1-orange)](LICENSE-OFL)
+[![License MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE-MIT)
 [![Releases](https://img.shields.io/github/v/release/TakWolf/ark-pixel-font)](https://github.com/TakWolf/ark-pixel-font/releases)
-[![Itch.io](https://img.shields.io/badge/itch.io-ark--pixel--font-FF2449?logo=itch.io&logoColor=white)](https://takwolf.itch.io/ark-pixel-font)
-[![Discord](https://img.shields.io/discord/949265373964947458?color=4E5AF0&logo=discord&logoColor=white&label=discord)](https://discord.gg/3GKtPKtjdU)
-[![QQ Group](https://img.shields.io/badge/QQ群-302383204-brightgreen?logo=tencentqq&logoColor=white)](https://jq.qq.com/?_wv=1027&k=EXtKGHar)
+[![itch.io](https://img.shields.io/badge/itch.io-ark--pixel--font-FF2449?logo=itch.io&logoColor=white)](https://takwolf.itch.io/ark-pixel-font)
+[![Discord](https://img.shields.io/badge/discord-像素字体工房-4E5AF0?logo=discord&logoColor=white)](https://discord.gg/3GKtPKtjdU)
+[![QQ Group](https://img.shields.io/badge/QQ群-像素字体工房-brightgreen?logo=qq&logoColor=white)](https://qm.qq.com/q/X1mLrLLGYS)
 
 开源的泛中日韩像素字体，黑体无衬线风格，支持 10、12 和 16 像素。
 
@@ -33,19 +33,19 @@
 
 [示例文本](https://ark-pixel-font.takwolf.com/demo-10px.html) · [等宽模式-字母表](https://ark-pixel-font.takwolf.com/alphabet-10px-monospaced.html) · [比例模式-字母表](https://ark-pixel-font.takwolf.com/alphabet-10px-proportional.html)
 
-![preview-10px](docs/preview-10px.png)
+![Preview-10px](docs/preview-10px.png)
 
 ### 12 像素
 
 [示例文本](https://ark-pixel-font.takwolf.com/demo-12px.html) · [等宽模式-字母表](https://ark-pixel-font.takwolf.com/alphabet-12px-monospaced.html) · [比例模式-字母表](https://ark-pixel-font.takwolf.com/alphabet-12px-proportional.html)
 
-![preview-12px](docs/preview-12px.png)
+![Preview-12px](docs/preview-12px.png)
 
 ### 16 像素
 
 [示例文本](https://ark-pixel-font.takwolf.com/demo-16px.html) · [等宽模式-字母表](https://ark-pixel-font.takwolf.com/alphabet-16px-monospaced.html) · [比例模式-字母表](https://ark-pixel-font.takwolf.com/alphabet-16px-proportional.html)
 
-![preview-16px](docs/preview-16px.png)
+![Preview-16px](docs/preview-16px.png)
 
 ## 字符统计
 
@@ -53,9 +53,9 @@
 
 | 尺寸 | 等宽模式 | 比例模式 |
 |---|---|---|
-| 10px | [font-info-10px-monospaced](docs/font-info-10px-monospaced.md) | [font-info-10px-proportional](docs/font-info-10px-proportional.md) |
-| 12px | [font-info-12px-monospaced](docs/font-info-12px-monospaced.md) | [font-info-12px-proportional](docs/font-info-12px-proportional.md) |
-| 16px | [font-info-16px-monospaced](docs/font-info-16px-monospaced.md) | [font-info-16px-proportional](docs/font-info-16px-proportional.md) |
+| 10px | [info-10px-monospaced](docs/info-10px-monospaced.md) | [info-10px-proportional](docs/info-10px-proportional.md) |
+| 12px | [info-12px-monospaced](docs/info-12px-monospaced.md) | [info-12px-proportional](docs/info-12px-proportional.md) |
+| 16px | [info-16px-monospaced](docs/info-16px-monospaced.md) | [info-16px-proportional](docs/info-16px-proportional.md) |
 
 ## 尺寸
 
@@ -93,9 +93,9 @@
 
 | 尺寸 | 行高 |
 |---|---|
-| 10px | 16px |
-| 12px | 18px |
-| 16px | 24px |
+| 10px | 14px |
+| 12px | 16px |
+| 16px | 22px |
 
 ## 语言特定字形
 
@@ -113,38 +113,46 @@
 | ja | 日语 | 字形采用日本参考规范 [《常用汉字表》](https://zh.wikipedia.org/wiki/%E5%B8%B8%E7%94%A8%E6%BC%A2%E5%AD%97) 中的写法。 |
 | ko | 朝鲜语 | |
 
-## 下载
+## 字形依赖
 
-可通过以下渠道下载最新的版本：
+- [像素字形 - 谚文音节](https://github.com/TakWolf/pixel-glyphs-hangul-syllables)
+- [像素字形 - 盲文图案](https://github.com/TakWolf/pixel-glyphs-braille-patterns)
 
-- [GitHub Releases](https://github.com/TakWolf/ark-pixel-font/releases)
-- [itch.io](https://takwolf.itch.io/ark-pixel-font)
+## 程序依赖
 
-目前提供 `.otf`、`.ttf`、`.woff2`、`.bdf`、`.pcf` 五种单字体格式，以及 `.otc`、`.ttc` 两种集合字体格式。
+- [Pixel Font Builder](https://github.com/TakWolf/pixel-font-builder)
+- [Pixel Font Knife](https://github.com/TakWolf/pixel-font-knife)
+- [Unidata Blocks](https://github.com/TakWolf/unidata-blocks)
+- [Character Encoding Utils](https://github.com/TakWolf/character-encoding-utils)
+- [PyYAML](https://github.com/yaml/pyyaml)
+- [Pillow](https://github.com/python-pillow/Pillow)
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
+- [Jinja](https://github.com/pallets/jinja)
+- [Loguru](https://github.com/Delgan/loguru)
+- [Cyclopts](https://github.com/BrianPugh/cyclopts)
 
-## 使用包管理器安装 
+## 外部工具
 
-### [Homebrew](https://brew.sh)
+- [SYMBL - Unicode 查询工具](https://symbl.cc)
+- [字嗨 - 漢字部件檢索](https://zi-hi.com/sp/uni/CJKSeeker)
+- [字統网 - 字形檢字](https://zi.tools/?secondary=search)
+- [汉语国学 - 汉语字典在线查字](https://www.hanyuguoxue.com)
+- [思源映射查看器](https://source-han-mapping-viewer.takwolf.com)
 
-```shell
-brew install font-ark-pixel-10px-monospaced
-brew install font-ark-pixel-12px-monospaced
-brew install font-ark-pixel-16px-monospaced
+## 参考资料
 
-brew install font-ark-pixel-10px-proportional
-brew install font-ark-pixel-12px-proportional
-brew install font-ark-pixel-16px-proportional
-```
+- [字体开发最佳实践](https://silnrsi.github.io/FDBP/)
+- [Microsoft - OpenType 规范](https://learn.microsoft.com/en-us/typography/opentype/spec/)
+- [Glyphs 学习 - 纵向量度值](https://glyphsapp.com/zh/learn/vertical-metrics)
+- [Glyphs 学习 - 完美像素适配](https://glyphsapp.com/zh/learn/pixel-perfection)
+- [FreeType - 字形约定](https://freetype.org/freetype2/docs/glyphs/index.html)
 
-## 本地构建
+## 官方社区
 
-这是一个标准的 [Python3](https://www.python.org) 项目。
+- [「像素字体工房」Discord 服务器](https://discord.gg/3GKtPKtjdU)
+- [「像素字体工房」QQ 群 (302383204)](https://qm.qq.com/q/X1mLrLLGYS)
 
-当您配置好运行环境后，执行 `python ./build.py` 命令来开始构建。
-
-等待任务完成后，可在 `build/outputs` 目录下找到生成的字体文件。
-
-## 授权许可
+## 许可证
 
 分为「字体」和「构建程序」两个部分。
 
@@ -156,48 +164,9 @@ brew install font-ark-pixel-16px-proportional
 
 使用 [「MIT 许可证」](LICENSE-MIT) 授权。
 
-## 官方社区
-
-- [「像素字体工房」Discord 服务器](https://discord.gg/3GKtPKtjdU)
-- [「像素字体工房」QQ 群 (302383204)](https://jq.qq.com/?_wv=1027&k=EXtKGHar)
-
-## 程序依赖
-
-- [Pixel Font Builder](https://github.com/TakWolf/pixel-font-builder)
-- [Unidata Blocks](https://github.com/TakWolf/unidata-blocks)
-- [Character Encoding Utils](https://github.com/TakWolf/character-encoding-utils)
-- [PyPNG](https://gitlab.com/drj11/pypng)
-- [Pillow](https://github.com/python-pillow/Pillow)
-- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
-- [Jinja](https://github.com/pallets/jinja)
-- [GitPython](https://github.com/gitpython-developers/GitPython)
-
-## 字形依赖
-
-- [像素字形 - 谚文音节](https://github.com/TakWolf/pixel-glyphs-hangul-syllables)
-- [像素字形 - 盲文图案](https://github.com/TakWolf/pixel-glyphs-braille-patterns)
-
-## 外部工具
-
-- [SYMBL - Unicode 查询工具](https://symbl.cc)
-- [字嗨 - 漢字部件檢索](https://zi-hi.com/sp/uni/CJKSeeker)
-- [字統网 - 字形檢字](https://zi.tools/?secondary=search)
-- [思源映射管理器](https://github.com/NightFurySL2001/shs-cid)
-
-## 参考资料
-
-- [字体开发最佳实践](https://silnrsi.github.io/FDBP/)
-- [Microsoft - OpenType 字体文档](https://learn.microsoft.com/en-us/typography/opentype/)
-- [Glyphs 软件教程 - 纵向量度值](https://glyphsapp.com/zh/learn/vertical-metrics)
-- [FreeType 字形约定](https://freetype.org/freetype2/docs/glyphs/index.html)
-
 ## 赞助
 
 如果这个项目对您有帮助，请考虑赞助来支持开发工作。
 
 [![赞赏码](https://raw.githubusercontent.com/TakWolf/TakWolf/master/images/badge-payqr@2x.png)](https://github.com/TakWolf/TakWolf/blob/master/payment-qr-codes.md)
-[![爱发电](https://raw.githubusercontent.com/TakWolf/TakWolf/master/images/badge-afdian@2x.png)](https://afdian.net/@takwolf)
-
-请通过下面的链接来查看收到的赞助的具体情况：
-
-[赞助详情](https://github.com/TakWolf/TakWolf/blob/master/sponsors.md)
+[![爱发电](https://raw.githubusercontent.com/TakWolf/TakWolf/master/images/badge-afdian@2x.png)](https://afdian.com/a/takwolf)
